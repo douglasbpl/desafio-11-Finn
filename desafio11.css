@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    background: #2CB3F3;
+    position: relative;
+    width: 1366px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.cabecalho{
+    position: absolute;
+    width: 836px;
+    height: 183px;
+    left: 164px;
+    top: 40px;
+}
+
+.titulo-cabecalho{
+    position: absolute;
+    width: 320px;
+    height: 70px;
+    left: 369px;
+    top: 55px;
+    
+}
+
+
+.bevi{
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 55px;
+        
+}
+
+.p-cabecalho{
+    position: absolute;
+    width: 550px;
+    height: 47px;
+    left: 254px;
+    top: 130px;
+    
+
+}
+
+.conteudo{
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    
+}
+
+/* Fim Header */
+
+.caixa-rosto{
+    position: absolute;
+    width: 880px;
+    height: 616px;
+    left: 216px;
+    top: 259px;
+    background: white;
+    border-radius: 100px 100px 0px 0px;
+    
+}
+
+.rosto{
+    position: absolute;
+    width: 692px;
+    height: 487px;
+    left: 108px;
+    top: 60px;
+    background: #FFE1C9;
+    border-radius: 50%;
+}
+
+.olho-esq{
+    position: absolute;
+    width: 55.7px;
+    height: 55.7px;
+    left: 193px;
+    top: 106px;
+    background: black;
+    border-radius: 100%;
+}
+
+.olho-dir{
+    position: absolute;
+    width: 55.7px;
+    height: 55.7px;
+    left: 450px;
+    top: 106px;
+    background: black;
+    border-radius: 100%;
+}
+
+.boca-top{
+    position: absolute;
+    width: 373.96px;
+    height: 63.65px;
+    left: 170px;
+    top: 270px;
+    background: #FFFFFF;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.boca-bot{
+    position: absolute;
+    width: 373.96px;
+    height: 63.65px;
+    left: 170px;
+    top: 334px;
+    background: #FFFFFF;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.bt{
+    background: #55A603;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px black;
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    left: 567px;
+    top: 907px;
+
+}
+
+.p-bt{
+    position: absolute;
+    width: 93px;
+    height: 29px;
+    left: 63px;
+    top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #B2F272;
+}
+
+.t-boca{
+    width: 368px;
+    height: 58px;
+    font-size: 24px;
+}
+
+
+.b-boca{
+    width: 368px;
+    height: 58px;
+    font-size: 24px;
+
+}
+
+::-webkit-input-placeholder 
+ { font-size: 24px;
+    line-height: 28px;
+    color: #CCCCCC;}
+input:-moz-placeholder
+ { font-size: 24px;
+    line-height: 28px;
+    color: #CCCCCC;}
+textarea:-moz-placeholder 
+{ font-size: 24px;
+    line-height: 28px;
+    color: #CCCCCC; }
+   
+   
+/* Fim Main */
